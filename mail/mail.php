@@ -3,9 +3,12 @@ $email_name = "maxgmayo";
 $email_direct = "@gmail.com";
 $to = $email_name . $email_direct;
 $to_address = $to;
+
 $name = $_POST['name'];
-$subject = $_POST['subject'];
+$email_address = $_POST['email'];
+$phone = $_POST['phone'];
 $message = $_POST['message'];
+
 $message_wrap = wordwrap($message, 70, "\r\n");
 $from_email = $_POST['email'];
 $headers = "From: " . "'$name'" . " " . "'$from_email'" . "\r\n";
