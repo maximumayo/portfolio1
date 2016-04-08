@@ -1,7 +1,7 @@
 <?php
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
-require_once('email_config.php');
+//require_once('email_config.php');
 require('PHPMailerAutoload.php');
 $mail = new PHPMailer();
 $mail->SMTPDebug = 3;                                   // Enable verbose debug output
@@ -10,8 +10,8 @@ $mail->isSMTP();                                        // Set mailer to use SMT
 $mail->Host = 'smtp.gmail.com';                         // Specify main and backup SMTP servers
 $mail->SMTPAuth = true;                                 // Enable SMTP authentication
 
-$mail->Username = EMAIL_USER;                           // SMTP username
-$mail->Password = EMAIL_PASS;                           // SMTP password
+$mail->Username = 'maxmayoweb@gmail.com';                           // SMTP username
+$mail->Password = 'thiswillnotwork123';                           // SMTP password
 
 $mail->SMTPSecure = 'tls';                              // Enable TLS encryption, `ssl` also accepted
 $mail->Port = 587;                                      // TCP port to connect to
@@ -39,7 +39,7 @@ $mail->isHTML(true);                                    // Set email format to H
 $mail->Subject = 'Someone has contacted you from your website';
 
 $content = '';
-foreach($_POST as $key=>$value){
+foreach ($_POST as $key => $value) {
     $content .= "<h2>$key : $value</h2>";
 }
 
