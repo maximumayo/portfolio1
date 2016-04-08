@@ -1,10 +1,10 @@
 <?php
-error_reporting(E_ALL);
-ini_set('display_errors', 1);
+//error_reporting(E_ALL);
+//ini_set('display_errors', 1);
 require('PHPMailerAutoload.php');
 $payload = parse_ini_file('/var/config.ini', true);
 $mail = new PHPMailer();
-$mail->SMTPDebug = 3;                                   // Enable verbose debug output
+//$mail->SMTPDebug = 3;                                   // Enable verbose debug output
 
 $mail->isSMTP();                                        // Set mailer to use SMTP
 $mail->Host = 'smtp.gmail.com';                         // Specify main and backup SMTP servers
