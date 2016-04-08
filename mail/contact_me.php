@@ -1,8 +1,8 @@
 <?php
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
-include_once('email_config.php');
-include('PHPMailerAutoload.php');
+require_once('email_config.php');
+require('PHPMailerAutoload.php');
 $mail = new PHPMailer();
 $mail->SMTPDebug = 3;                                   // Enable verbose debug output
 
