@@ -157,7 +157,8 @@
 </section>
 <!-- End Skills Section  -->
 
-<!-- Begin Project Grid Section -->
+<!-- ********* Begin Project Grid Section ********* -->
+
 <section id="portfolio">
     <div class="container">
         <div class="row">
@@ -167,6 +168,8 @@
             </div>
         </div>
         <div class="row">
+
+            <!-- begin guessing grid -->
             <div class="col-sm-4 portfolio-item">
                 <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
                     <div class="caption">
@@ -174,9 +177,12 @@
                             <i class="fa fa-search-plus fa-3x"></i>
                         </div>
                     </div>
-                    <img src="img/mbscreen.png" class="img-responsive" alt="screenshot of website">
+                    <img src="img/guessingscreen.png" class="img-responsive" alt="screenshot of guessing game">
                 </a>
             </div>
+            <!-- end guessing grid -->
+
+            <!-- begin music match grid -->
             <div class="col-sm-4 portfolio-item">
                 <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
                     <div class="caption">
@@ -187,6 +193,9 @@
                     <img src="img/matchscreen.png" class="img-responsive small" alt="screenshot of card game">
                 </a>
             </div>
+            <!-- end music match grid -->
+
+            <!-- begin calculator grid -->
             <div class="col-sm-4 portfolio-item">
                 <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
                     <div class="caption">
@@ -197,6 +206,23 @@
                     <img src="img/calcscreen.png" class="img-responsive small" alt="screenshot of calculator">
                 </a>
             </div>
+            <!-- end calculator grid -->
+
+            <!-- ********* begin second line of grid ********* -->
+
+            <!-- begin mboutique grid -->
+            <div class="col-sm-4 portfolio-item">
+                <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                    <div class="caption">
+                        <div class="caption-content">
+                            <i class="fa fa-search-plus fa-3x"></i>
+                        </div>
+                    </div>
+
+                    <img src="img/mbscreen.png" class="img-responsive" alt="screenshot of website">
+                </a>
+            </div>
+            <!-- end mboutique grid -->
         </div>
     </div>
 </section>
@@ -326,8 +352,126 @@
 </div>
 
 <!-- ****** Project Modals Below ****** -->
-<!-- mboutique project modal -->
+
+<!-- guessing game project modal -->
 <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <h2>Guessing Game</h2>
+                        <hr>
+                        <img src="img/guessingscreen.png" class="img-responsive img-centered" alt="guessing game screenshot">
+                        <p>A number guessing game with audio/visual effects</p>
+                        <ul class="list-inline item-details">
+                            <li>
+                                <strong>
+                                    <a href="https://github.com/maximumayo/guessing-game" target="_blank">
+                                        <span class="fa fa-github"></span>View code on GitHub</a>
+                                </strong>
+                            </li>
+                            <li>
+                                <strong><a href="/guessing-game" target="_blank">Live Demo</a></strong>
+                            </li>
+                        </ul>
+                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
+                            Close
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end guessing game project modal -->
+
+<!-- music match project modal -->
+<div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <h2>Music Match</h2>
+                        <hr>
+                        <img src="img/matchscreen.png" class="img-responsive img-centered" alt="music match game screenshot">
+                        <p>Music Match is a card matching game that tests your memory and it is fun for all ages!</p>
+                        <ul class="list-inline item-details">
+                            <li>
+                                <strong>
+                                    <a href="https://github.com/maximumayo/music-match" target="_blank">
+                                        <span class="fa fa-github"></span>View code on GitHub</a>
+                                </strong>
+                            </li>
+                            <li>
+                                <strong><a href="/music-match" target="_blank">Live Demo</a></strong>
+                            </li>
+                        </ul>
+                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
+                            Close
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end music match project modal -->
+
+<!-- calculator project modal -->
+<div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <h2>Calculator</h2>
+                        <hr>
+                        <img src="img/calcscreen.png" class="img-responsive img-centered" alt="calculator screenshot">
+                        <p>This is a basic calculator utilizing JavaScript and jQuery</p>
+                        <ul class="list-inline item-details">
+                            <li>
+                                <strong>
+                                    <a href="https://github.com/maximumayo/calculator" target="_blank">
+                                        <span class="fa fa-github"></span>View code on GitHub</a>
+                                </strong>
+                            </li>
+                            <li>
+                                <strong><a href="/calculator" target="_blank">Live Demo</a></strong>
+                            </li>
+                        </ul>
+                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
+                            Close
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end calculator project modal -->
+
+<!-- begin mboutique modal -->
+<div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-content">
         <div class="close-modal" data-dismiss="modal">
             <div class="lr">
@@ -363,83 +507,8 @@
         </div>
     </div>
 </div>
-<!-- end mboutique project modal -->
-<!-- music match project modal -->
-<div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-                <div class="rl">
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <div class="modal-body">
-                        <h2>Music Match</h2>
-                        <hr>
-                        <img src="img/matchscreen.png" class="img-responsive img-centered" alt="">
-                        <p>Music Match is a card matching game that tests your memory and it is fun for all ages!</p>
-                        <ul class="list-inline item-details">
-                            <li>
-                                <strong>
-                                    <a href="https://github.com/maximumayo/music-match" target="_blank">
-                                        <span class="fa fa-github"></span>View code on GitHub</a>
-                                </strong>
-                            </li>
-                            <li>
-                                <strong><a href="/music-match" target="_blank">Live Demo</a></strong>
-                            </li>
-                        </ul>
-                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
-                            Close
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- end music match project modal -->
-<!-- calculator project modal -->
-<div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-                <div class="rl">
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <div class="modal-body">
-                        <h2>Calculator</h2>
-                        <hr>
-                        <img src="img/calcscreen.png" class="img-responsive img-centered" alt="">
-                        <p>This is a basic calculator utilizing JavaScript and jQuery</p>
-                        <ul class="list-inline item-details">
-                            <li>
-                                <strong>
-                                    <a href="https://github.com/maximumayo/calculator" target="_blank">
-                                        <span class="fa fa-github"></span>View code on GitHub</a>
-                                </strong>
-                            </li>
-                            <li>
-                                <strong><a href="/calculator" target="_blank">Live Demo</a></strong>
-                            </li>
-                        </ul>
-                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
-                            Close
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- end calculator project modal -->
+<!-- end mboutique modal -->
+
 <!-- End Project Modals -->
 
 <!-- jQuery -->
