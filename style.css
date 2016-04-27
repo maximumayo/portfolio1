@@ -1,7 +1,7 @@
 #faceImg {
     height: 200px;
     border-radius: 100px;
-    border: 5px solid gray;
+    border: 4px solid gray;
     opacity: .9;
 }
 
@@ -36,4 +36,12 @@
 
 #contactHead {
     padding-bottom: 3%;
+}
+
+.form-group {
+    margin-bottom: 0;
+}
+
+#send {
+    margin-top: 10px;
 }
