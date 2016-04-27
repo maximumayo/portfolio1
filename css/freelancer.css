@@ -228,105 +228,7 @@ section.success a.active {
     transition: all ease .5s;
 }
 
-/*************************************************/
 
-div.portfolio-link {
-    overflow: hidden;
-}
-
-div.text-fx h3,
-div.text-fx a {
-    color: black;
-    position: relative;
-}
-
-div.text-fx .caption-content::before,
-div.text-fx .caption-content::after {
-    position: absolute;
-    top: 30px;
-    right: 30px;
-    bottom: 30px;
-    left: 30px;
-    opacity: 0;
-    -webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
-    -moz-transition: opacity 0.5s, -moz-transform 0.5s;
-    -ms-transition: opacity 0.5s, -ms-transform 0.5s;
-    transition: opacity 0.5s, transform 0.5s;
-}
-
-div.text-fx .caption-content::before {
-    -webkit-transform: scale(0, 1);
-    -moz-transform: scale(0, 1);
-    -ms-transform: scale(0, 1);
-    transform: scale(0, 1);
-}
-
-div.text-fx .caption-content::after {
-    -webkit-transform: scale(1, 0);
-    -moz-transform: scale(1, 0);
-    -ms-transform: scale(1, 0);
-    transform: scale(1, 0);
-}
-
-div.text-fx h3 {
-    padding: 2%;
-    -webkit-transition: -webkit-transform 0.5s;
-    -moz-transition: -moz-transform 0.5s;
-    -ms-transition: -ms-transform 0.5s;
-    transition: transform 0.5s;
-    -webkit-transform: scale(1.2) translate3d(0, 50%, 0) rotate(180deg);
-    -moz-transform: scale(1.2) translate3d(0, 50%, 0) rotate(180deg);
-    -ms-transform: scale(1.2) translate3d(0, 50%, 0) rotate(180deg);
-    transform: scale(1.2) translate3d(0, 50%, 0) rotate(180deg);
-}
-
-div.text-fx a {
-    padding: 2%;
-    opacity: 0;
-    transition: opacity 0.5s, transform 0.5s;
-    -webkit-transform: scale(1.2) translate3d(0, 50%, 0) rotate(180deg);
-    -moz-transform: scale(1.2) translate3d(0, 50%, 0) rotate(180deg);
-    -ms-transform: scale(1.2) translate3d(0, 50%, 0) rotate(180deg);
-    transform: scale(1.2) translate3d(0, 50%, 0) rotate(180deg);
-}
-
-div.text-fx:hover .caption-content::before,
-div.text-fx:hover .caption-content::after {
-    opacity: 1;
-    -webkit-transform: scale(1);
-    -moz-transform: scale(1);
-    -ms-transform: scale(1);
-    transform: scale(1);
-}
-
-div.text-fx:hover h3,
-div.text-fx:hover a {
-    opacity: 1;
-    -webkit-transform: translate3d(0, 0, 0);
-    -moz-transform: translate3d(0, 0, 0);
-    -ms-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-}
-
-.portfolio-item img {
-    -webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
-    -moz-transition: opacity 0.5s, -moz-transform 0.5s;
-    -ms-transition: opacity 0.5s, -ms-transform 0.5s;
-    transition: opacity 0.5s, transform 0.5s;
-}
-
-.portfolio-item:hover img {
-    -webkit-filter: blur(1px);
-    -moz-filter: blur(1px);
-    -ms-filter: blur(1px);
-    filter: blur(1px);
-    -webkit-transform: scale(1.2) rotate(7deg);
-    -moz-transform: scale(1.2) rotate(7deg);
-    -ms-transform: scale(1.2) rotate(7deg);
-    transform: scale(1.2) rotate(7deg);
-}
-
-/*************************************************/
 
 #portfolio .portfolio-item .portfolio-link .caption:hover {
     opacity: 1;
@@ -373,7 +275,6 @@ div.text-fx:hover a {
 .btn-outline:active,
 .btn-outline.active {
     border: solid 2px #fff;
-    /*color: #18bc9c;*/
     color: blue;
     background: #fff;
 }
