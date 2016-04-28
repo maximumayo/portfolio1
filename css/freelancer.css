@@ -182,8 +182,10 @@ section h2 {
 }
 
 section.success {
-    color: #fff;
-    background-color: black;
+    /*color: #fff;*/
+    color: black;
+    background-color: #fff;
+    /*background-color: black;*/
     opacity: .9;
 }
 
