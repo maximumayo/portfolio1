@@ -52,10 +52,16 @@ div.portfolio-link {
     overflow: hidden;
 }
 
+/*div.caption.text-fx > a {*/
+/*display: inline-block;*/
+/*}*/
+
 div.text-fx h3,
-div.text-fx a {
+div.text-fx p {
     color: black;
     position: relative;
+    text-decoration: none;
+
 }
 
 div.text-fx .caption-content::before,
@@ -98,7 +104,7 @@ div.text-fx h3 {
     transform: scale(1.2) translate3d(0, 50%, 0) rotate(180deg);
 }
 
-div.text-fx a {
+div.text-fx p {
     padding: 2%;
     opacity: 0;
     transition: opacity 0.5s, transform 0.5s;
@@ -117,8 +123,8 @@ div.text-fx:hover .caption-content::after {
     transform: scale(1);
 }
 
-div.text-fx:hover h3,
-div.text-fx:hover a {
+.portfolio-item:hover h3,
+.portfolio-item:hover p {
     opacity: 1;
     -webkit-transform: translate3d(0, 0, 0);
     -moz-transform: translate3d(0, 0, 0);
