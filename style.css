@@ -34,6 +34,15 @@
     background-color: grey;
 }
 
+#portfolio {
+    background-color: lightgrey;
+}
+
+section#skills h2 {
+    color: black;
+    margin-bottom: 6%;;
+}
+
 #contactHead {
     padding-bottom: 3%;
 }
