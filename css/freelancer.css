@@ -211,8 +211,6 @@ section.success a.active {
 }
 
 #portfolio .portfolio-item .portfolio-link {
-    /*display: inline-block;*/
-    /**(*(*(*(*(*(*(*(*(*((**/
     display: block;
     position: relative;
     margin: 0 auto;
