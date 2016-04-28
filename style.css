@@ -39,8 +39,21 @@
 }
 
 section#skills h2 {
-    color: black;
-    margin-bottom: 6%;;
+    /*color: black;*/
+    margin-bottom: 6%;
+}
+
+section#skills p, h4 {
+    text-align: center;
+}
+
+section#skills p {
+    font-size: 15px;
+    margin-bottom: 3%;
+}
+
+section#skills .img-responsive {
+    margin-bottom: 2%;
 }
 
 #contactHead {
