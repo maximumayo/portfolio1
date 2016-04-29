@@ -67,6 +67,10 @@ section#skills .img-responsive {
     margin-top: 10px;
 }
 
+section#about{
+    color: #fff;
+}
+
 /****** Project Grid *******/
 
 div.portfolio-link {
